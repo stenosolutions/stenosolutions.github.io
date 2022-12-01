@@ -1,0 +1,24 @@
+button {
+    padding: 5px 20px;
+    font-family: acme;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+button.buttonVerde {
+    background: linear-gradient(180deg, #8BB700 0%, #68860B 100%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+button.buttonVazado {
+    background: none;
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.3));
+}
+
+@font-face {
+    font-family: acme;
+    src: url(../../public/font/Acme-Regular.ttf);
+}
